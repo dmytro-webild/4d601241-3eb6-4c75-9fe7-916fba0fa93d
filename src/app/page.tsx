@@ -47,14 +47,14 @@ export default function LandingPage() {
       title="Expert Tech Care, Faster Than Your Morning Coffee."
       description="Premium repairs, certified pre-owned devices, and world-class service. We don’t just fix screens; we restore your connection to the world—usually in under 30 minutes."
       leftCarouselItems={[
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/high-tech-laptop-repair-close-up-1774882601000.png", imageAlt: "Tech 1" },
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/smartphone-screen-assembly-1774882602000.png", imageAlt: "Tech 2" },
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/precision-electronics-tools-1774882603000.png", imageAlt: "Tech 3" }
+        { imageSrc: "https://images.unsplash.com/photo-1591337676887-a210a696a985?q=80&w=800&h=1000", imageAlt: "Precision motherboard repair" },
+        { imageSrc: "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=800&h=1000", imageAlt: "Advanced electronics diagnostics" },
+        { imageSrc: "https://images.unsplash.com/photo-1544244015-0d4b3dd6a60f?q=80&w=800&h=1000", imageAlt: "Micro-soldering expertise" }
       ]}
       rightCarouselItems={[
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/motherboard-repair-close-up-1774882604000.png", imageAlt: "Tech 4" },
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/modern-tech-lab-workspace-1774882605000.png", imageAlt: "Tech 5" },
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/soldering-circuit-board-1774882606000.png", imageAlt: "Tech 6" }
+        { imageSrc: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=800&h=1000", imageAlt: "Laptop screen replacement" },
+        { imageSrc: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=800&h=1000", imageAlt: "Professional tech lab setup" },
+        { imageSrc: "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?q=80&w=800&h=1000", imageAlt: "Quality battery replacement" }
       ]}
       buttons={[
         { text: "Get a Quick Quote", onClick: () => window.open("https://wa.me/15551234567?text=I need a quote for my device repair.", "_blank") },
