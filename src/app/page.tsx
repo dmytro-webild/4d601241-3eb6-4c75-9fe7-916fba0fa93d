@@ -60,53 +60,53 @@ export default function LandingPage() {
       description="Premium repairs, certified pre-owned devices, and world-class service. We don’t just fix screens; we restore your connection to the world—usually in under 30 minutes."
       leftCarouselItems={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=1",
           imageAlt: "Technician repair 1",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=2",
           imageAlt: "Technician repair 2",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=3",
           imageAlt: "Technician repair 3",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=4",
           imageAlt: "Technician repair 4",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=5",
           imageAlt: "Technician repair 5",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=6",
           imageAlt: "Technician repair 6",
         },
       ]}
       rightCarouselItems={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=7",
           imageAlt: "Technician repair 1",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=8",
           imageAlt: "Technician repair 2",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=9",
           imageAlt: "Technician repair 3",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=10",
           imageAlt: "Technician repair 4",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=11",
           imageAlt: "Technician repair 5",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=12",
           imageAlt: "Technician repair 6",
         },
       ]}
@@ -237,7 +237,7 @@ export default function LandingPage() {
           name: "Delfilio B.",
           handle: "@delfilio",
           testimonial: "I don't give them 20 stars because it isn't an option. Super trustworthy.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-professional-headshot-of-a-diverse-cus-1774882597374-ff4e17f6.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-professional-headshot-of-a-diverse-cus-1774882597374-ff4e17f6.png?_wi=1",
         },
         {
           id: "2",
@@ -265,7 +265,7 @@ export default function LandingPage() {
           name: "Sarah J.",
           handle: "@sarahj",
           testimonial: "They fixed my laptop screen perfectly. Could not be happier with the results!",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-professional-headshot-of-a-diverse-cus-1774882597374-ff4e17f6.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-professional-headshot-of-a-diverse-cus-1774882597374-ff4e17f6.png?_wi=2",
         },
       ]}
       title="What Our Community Says"
