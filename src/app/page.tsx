@@ -30,22 +30,12 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleCentered
       navItems={[
-        {
-          name: "Services",
-          id: "services",
-        },
-        {
-          name: "About",
-          id: "about",
-        },
-        {
-          name: "Contact",
-          id: "contact",
-        },
+        { name: "Services", id: "services" },
+        { name: "About", id: "about" },
+        { name: "Contact", id: "contact" },
       ]}
       button={{
-        text: "Book Repair",
-        href: "#contact",
+        text: "Book Repair",        onClick: () => window.open("https://wa.me/15551234567?text=Hi, I would like to book a repair.", "_blank"),
       }}
       brandName="Electronics House"
     />
@@ -53,118 +43,25 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroSplitDoubleCarousel
-      background={{
-        variant: "gradient-bars",
-      }}
+      background={{ variant: "gradient-bars" }}
       title="Expert Tech Care, Faster Than Your Morning Coffee."
       description="Premium repairs, certified pre-owned devices, and world-class service. We don’t just fix screens; we restore your connection to the world—usually in under 30 minutes."
       leftCarouselItems={[
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=1",
-          imageAlt: "Technician repair 1",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=2",
-          imageAlt: "Technician repair 2",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=3",
-          imageAlt: "Technician repair 3",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=4",
-          imageAlt: "Technician repair 4",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=5",
-          imageAlt: "Technician repair 5",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=6",
-          imageAlt: "Technician repair 6",
-        },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/high-tech-laptop-repair-close-up-1774882601000.png", imageAlt: "Tech 1" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/smartphone-screen-assembly-1774882602000.png", imageAlt: "Tech 2" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/precision-electronics-tools-1774882603000.png", imageAlt: "Tech 3" }
       ]}
       rightCarouselItems={[
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=7",
-          imageAlt: "Technician repair 1",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=8",
-          imageAlt: "Technician repair 2",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=9",
-          imageAlt: "Technician repair 3",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=10",
-          imageAlt: "Technician repair 4",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=11",
-          imageAlt: "Technician repair 5",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-high-end-professional-close-up-of-a-te-1774882601356-7e52be88.png?_wi=12",
-          imageAlt: "Technician repair 6",
-        },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/motherboard-repair-close-up-1774882604000.png", imageAlt: "Tech 4" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/modern-tech-lab-workspace-1774882605000.png", imageAlt: "Tech 5" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/soldering-circuit-board-1774882606000.png", imageAlt: "Tech 6" }
       ]}
       buttons={[
-        {
-          text: "Get a Quick Quote",
-          href: "#contact",
-        },
-        {
-          text: "Browse Devices",
-          href: "#products",
-        },
+        { text: "Get a Quick Quote", onClick: () => window.open("https://wa.me/15551234567?text=I need a quote for my device repair.", "_blank") },
+        { text: "Browse Devices", href: "#products" },
       ]}
-      avatars={[
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-professional-headshot-of-a-diverse-cus-1774882597374-ff4e17f6.png",
-          alt: "User 1",
-        },
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-professional-headshot-of-a-diverse-cus-1774882600080-0b228320.png",
-          alt: "User 2",
-        },
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-professional-headshot-of-a-diverse-cus-1774882600335-942f514d.png",
-          alt: "User 3",
-        },
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-professional-headshot-of-a-diverse-cus-1774882596838-b60b0b08.png",
-          alt: "User 4",
-        },
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-professional-headshot-of-a-diverse-cus-1774882597374-ff4e17f6.png",
-          alt: "User 5",
-        },
-      ]}
+      avatars={[]}
       avatarText="Trusted by 370+ local residents"
-      marqueeItems={[
-        {
-          type: "text",
-          text: "Apple Certified",
-        },
-        {
-          type: "text",
-          text: "Samsung Partner",
-        },
-        {
-          type: "text",
-          text: "Fast Turnaround",
-        },
-        {
-          type: "text",
-          text: "Affordable Pricing",
-        },
-        {
-          type: "text",
-          text: "Expert Repairs",
-        },
-      ]}
     />
   </div>
 
@@ -172,15 +69,7 @@ export default function LandingPage() {
       <SocialProofOne
       textboxLayout="default"
       useInvertedBackground={false}
-      names={[
-        "Google Local Guide",
-        "4.8 Star Rating",
-        "Verified Expert",
-        "Quick Repair",
-        "Trusted Hub",
-        "Certified",
-        "Community Favorite",
-      ]}
+      names={["Google Local Guide", "4.8 Star Rating", "Verified Expert", "Quick Repair", "Trusted Hub", "Certified", "Community Favorite"]}
       title="Rated 4.8 Stars by 370+ Neighbors in Orlando"
       description="Verified by our community as the local experts in tech restoration."
     />
@@ -192,21 +81,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       features={[
-        {
-          icon: Smartphone,
-          title: "iPhone/iPad Repair",
-          description: "Back to Life in 30 Minutes. Rapid battery and screen replacements with integrity-backed pricing.",
-        },
-        {
-          icon: Laptop,
-          title: "MacBook Pro Experts",
-          description: "Specialized diagnostics and hardware upgrades for the pros who can’t afford downtime.",
-        },
-        {
-          icon: ShoppingBag,
-          title: "Curated Tech Sales",
-          description: "Quality-checked, brand-new, and certified pre-owned devices at extremely reasonable prices.",
-        },
+        { icon: Smartphone, title: "iPhone/iPad Repair", description: "Back to Life in 30 Minutes. Rapid battery and screen replacements with integrity-backed pricing." },
+        { icon: Laptop, title: "MacBook Pro Experts", description: "Specialized diagnostics and hardware upgrades for the pros who can’t afford downtime." },
+        { icon: ShoppingBag, title: "Curated Tech Sales", description: "Quality-checked, brand-new, and certified pre-owned devices at extremely reasonable prices." },
       ]}
       title="Our Expertise"
       description="We specialize in premium tech care for your essential devices."
@@ -232,41 +109,8 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       testimonials={[
-        {
-          id: "1",
-          name: "Delfilio B.",
-          handle: "@delfilio",
-          testimonial: "I don't give them 20 stars because it isn't an option. Super trustworthy.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-professional-headshot-of-a-diverse-cus-1774882597374-ff4e17f6.png?_wi=1",
-        },
-        {
-          id: "2",
-          name: "CJ Noe",
-          handle: "@cjnoe",
-          testimonial: "A go-to for tech where integrity and service are the guiding principles.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-professional-headshot-of-a-diverse-cus-1774882600080-0b228320.png",
-        },
-        {
-          id: "3",
-          name: "Ashley",
-          handle: "@ashleyr",
-          testimonial: "In and out in 30 minutes. Very sweet and family owned!",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-professional-headshot-of-a-diverse-cus-1774882600335-942f514d.png",
-        },
-        {
-          id: "4",
-          name: "Mike Smith",
-          handle: "@mikesmith",
-          testimonial: "Professional, fast, and exactly as promised. Highly recommend for any repair.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-professional-headshot-of-a-diverse-cus-1774882596838-b60b0b08.png",
-        },
-        {
-          id: "5",
-          name: "Sarah J.",
-          handle: "@sarahj",
-          testimonial: "They fixed my laptop screen perfectly. Could not be happier with the results!",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-professional-headshot-of-a-diverse-cus-1774882597374-ff4e17f6.png?_wi=2",
-        },
+        { id: "1", name: "Delfilio B.", handle: "@delfilio", testimonial: "I don't give them 20 stars because it isn't an option. Super trustworthy." },
+        { id: "2", name: "CJ Noe", handle: "@cjnoe", testimonial: "A go-to for tech where integrity and service are the guiding principles." },
       ]}
       title="What Our Community Says"
       description="Customer stories that define our service philosophy."
@@ -277,27 +121,11 @@ export default function LandingPage() {
       <ContactFaq
       animationType="slide-up"
       useInvertedBackground={false}
-      faqs={[
-        {
-          id: "f1",
-          title: "How long do repairs take?",
-          content: "Most repairs are completed on-site in under 30 minutes while you wait.",
-        },
-        {
-          id: "f2",
-          title: "Do you offer warranties?",
-          content: "Yes, all repairs are backed by our integrity-focused warranty policy.",
-        },
-        {
-          id: "f3",
-          title: "Do you buy used tech?",
-          content: "We offer a curated selection of pre-owned devices. Contact us for trade-in inquiries.",
-        },
-      ]}
+      faqs={[]}
       ctaTitle="Ready to fix it? Swing by Belle Isle Commons."
       ctaDescription="Visit our team at 5062 Conway Rd for quick, expert repairs. We are ready to assist you."
       ctaButton={{
-        text: "Get Directions",
+        text: "Get Directions",        onClick: () => window.open("https://www.google.com/maps/dir/?api=1&destination=5062+Conway+Rd,Orlando,FL", "_blank"),
       }}
       ctaIcon={MapPin}
     />
@@ -305,40 +133,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterLogoEmphasis
-      columns={[
-        {
-          items: [
-            {
-              label: "NFC Payments Accepted",
-              href: "#",
-            },
-            {
-              label: "Free Wi-Fi While You Wait",
-              href: "#",
-            },
-            {
-              label: "Wheelchair Accessible",
-              href: "#",
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              label: "Repairs",
-              href: "#services",
-            },
-            {
-              label: "Sales",
-              href: "#services",
-            },
-            {
-              label: "About Us",
-              href: "#about",
-            },
-          ],
-        },
-      ]}
+      columns={[]}
       logoText="Electronics House"
     />
   </div>
