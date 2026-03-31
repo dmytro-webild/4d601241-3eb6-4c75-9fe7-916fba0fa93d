@@ -61,7 +61,7 @@ export default function LandingPage() {
         { imageSrc: "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?q=80&w=800&h=1000", imageAlt: "Quality battery replacement" },
         { imageSrc: "http://img.b2bpic.net/premium-photo/digital-technology-global-internet-network-ai-artificial-intelligence-big-data-concept-computer-programmer-software-engineer-coding-laptop-global-network-cyber-security_928174-8320.jpg?id=382220369", imageAlt: "Tablet repair bench" },
         { imageSrc: "http://img.b2bpic.net/premium-photo/digital-technology-cloud-computing-concept-software-engineer-using-mobile-smart-phone-laptop-computer-with-global-network-connection-technology-innovative-communication-concept_928174-9452.jpg?id=382306749", imageAlt: "Device assembly station" },
-        { imageSrc: "https://images.unsplash.com/photo-1586953208448-b95a79a65f2a?q=80&w=800&h=1000", imageAlt: "Hardware maintenance" },
+        { imageSrc: "http://img.b2bpic.net/free-vector/blue-technology-circuit-diagram-with-glowing-line-lights_1017-17266.jpg?id=3922435", imageAlt: "Hardware maintenance" },
         { imageSrc: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=800&h=1000", imageAlt: "Tech repair equipment" }
       ]}
       buttons={[
