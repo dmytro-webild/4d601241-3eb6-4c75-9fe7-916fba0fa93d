@@ -72,6 +72,7 @@ export default function LandingPage() {
       names={["Google Local Guide", "4.8 Star Rating", "Verified Expert", "Quick Repair", "Trusted Hub", "Certified", "Community Favorite"]}
       title="Rated 4.8 Stars by 370+ Neighbors in Orlando"
       description="Verified by our community as the local experts in tech restoration."
+      logos={["https://images.unsplash.com/photo-1614680376593-902f74cf0d41?q=80&w=200&h=100", "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?q=80&w=200&h=100", "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?q=80&w=200&h=100", "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?q=80&w=200&h=100", "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?q=80&w=200&h=100", "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?q=80&w=200&h=100"]}
     />
   </div>
 
@@ -98,7 +99,7 @@ export default function LandingPage() {
       description="We’ve been a 'go-to' tech hub since day one because we value people over pixels."
       subdescription="Our team treats your tech like it’s our own, following the 30-Minute Standard and providing transparent, jargon-free quotes."
       icon={Heart}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bag3h5O25bp8ZnRSfrVSnN9A9z/a-professional-and-approachable-portrait-1774882599155-8d39fa68.png"
+      imageSrc="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1000&h=800"
       mediaAnimation="blur-reveal"
     />
   </div>
@@ -109,8 +110,8 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       testimonials={[
-        { id: "1", name: "Delfilio B.", handle: "@delfilio", testimonial: "I don't give them 20 stars because it isn't an option. Super trustworthy." },
-        { id: "2", name: "CJ Noe", handle: "@cjnoe", testimonial: "A go-to for tech where integrity and service are the guiding principles." },
+        { id: "1", name: "Delfilio B.", handle: "@delfilio", testimonial: "I don't give them 20 stars because it isn't an option. Super trustworthy.", imageSrc: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200&h=200" },
+        { id: "2", name: "CJ Noe", handle: "@cjnoe", testimonial: "A go-to for tech where integrity and service are the guiding principles.", imageSrc: "https://images.unsplash.com/photo-1633332755192-727a02c4f01d?q=80&w=200&h=200" },
       ]}
       title="What Our Community Says"
       description="Customer stories that define our service philosophy."
