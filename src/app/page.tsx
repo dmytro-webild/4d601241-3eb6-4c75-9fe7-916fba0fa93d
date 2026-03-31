@@ -51,14 +51,18 @@ export default function LandingPage() {
         { imageSrc: "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=800&h=1000", imageAlt: "Advanced electronics diagnostics" },
         { imageSrc: "https://images.unsplash.com/photo-1544244015-0d4b3dd6a60f?q=80&w=800&h=1000", imageAlt: "Micro-soldering expertise" },
         { imageSrc: "https://images.unsplash.com/photo-1593642532744-d377ab507dc8?q=80&w=800&h=1000", imageAlt: "Component testing" },
-        { imageSrc: "https://images.unsplash.com/photo-1581092160607-ee22531fa793?q=80&w=800&h=1000", imageAlt: "Precision tool set" }
+        { imageSrc: "https://images.unsplash.com/photo-1581092160607-ee22531fa793?q=80&w=800&h=1000", imageAlt: "Precision tool set" },
+        { imageSrc: "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?q=80&w=800&h=1000", imageAlt: "Screen repair display" },
+        { imageSrc: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=800&h=1000", imageAlt: "Working on electronics" }
       ]}
       rightCarouselItems={[
         { imageSrc: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=800&h=1000", imageAlt: "Laptop screen replacement" },
         { imageSrc: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=800&h=1000", imageAlt: "Professional tech lab setup" },
         { imageSrc: "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?q=80&w=800&h=1000", imageAlt: "Quality battery replacement" },
         { imageSrc: "https://images.unsplash.com/photo-1580522153371-5582f3c7e735?q=80&w=800&h=1000", imageAlt: "Tablet repair bench" },
-        { imageSrc: "https://images.unsplash.com/photo-1563770660946-5e5812e987c9?q=80&w=800&h=1000", imageAlt: "Device assembly station" }
+        { imageSrc: "https://images.unsplash.com/photo-1563770660946-5e5812e987c9?q=80&w=800&h=1000", imageAlt: "Device assembly station" },
+        { imageSrc: "https://images.unsplash.com/photo-1586953208448-b95a79a65f2a?q=80&w=800&h=1000", imageAlt: "Hardware maintenance" },
+        { imageSrc: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=800&h=1000", imageAlt: "Tech repair equipment" }
       ]}
       buttons={[
         { text: "Get a Quick Quote", onClick: () => window.open("https://wa.me/15551234567?text=I need a quote for my device repair.", "_blank") },
